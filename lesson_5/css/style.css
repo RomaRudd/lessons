@@ -1,0 +1,202 @@
+
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Andika:regular,italic,700,700italic);
+
+@font-face {
+   font-family: Causten;
+   src: 
+      url(../fonts/Causten-Regular.woff2) format(woff2), 
+      url(../fonts/Causten-Regular.woff) format(woff);
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+   font-family: Causten;
+   src: 
+      url(../fonts/Causten-Light.woff2) format(woff2), 
+      url(../fonts/Causten-Light.woff) format(woff);
+      font-weight: 300;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+   font-family: Causten;
+   src: 
+      url(../fonts/Causten-Medium.woff2) format(woff2), 
+      url(../fonts/Causten-Medium.woff) format(woff);
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+   font-family: Causten;
+   src: 
+      url(../fonts/Causten-Bold.woff2) format(woff2), 
+      url(../fonts/Causten-Bold.woff) format(woff);
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+   font-family: CoreSansC;
+   src: 
+      url(../fonts/CoreSansC-45Regular.woff2) format(woff2), 
+      url(../fonts/CoreSansC-45Regular.woff) format(woff);
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+   font-family: CoreSansC;
+   src: 
+      url(../fonts/CoreSansC/CoreSansC-55Medium.woff2) format(woff2), 
+      url(../fonts/CoreSansC/CoreSansC-55Medium.woff) format(woff);
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+   font-family: CoreSansC;
+   src: 
+      url(../fonts/CoreSansC/CoreSansC-75ExtraBold.woff2) format(woff2), 
+      url(../fonts/CoreSansC/CoreSansC-75ExtraBold.woff) format(woff);
+      font-weight: 800;
+      font-style: normal;
+      font-display: swap;
+}
+
+@font-face {
+   font-family: CoreSansC;
+   src: 
+      url(../fonts/CoreSansC/CoreSansC-85Heavy.woff2) format(woff2), 
+      url(../fonts/CoreSansC/CoreSansC-85Heavy.woff) format(woff);
+      font-weight: 900;
+      font-style: normal;
+      font-display: swap;
+}
+
+
+body {
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+}
+
+.title,
+.sub-title {
+   font-family: "Poppins";
+   font-weight: 700;
+   color: #37393F; 
+}
+
+.title {
+   font-size: 30px;
+   /*font-style: italic;*/
+}
+
+.sub-title {
+   font-size: 20px;
+}
+
+.title-hw,
+.sub-title-hw {
+   font-family: Poppins, sans-serif;
+   font-weight: 600;
+   color: #37393F;
+}
+
+.title-hw {
+   font-size: 30px;
+   font-weight: 600;
+   color:rgba(55, 57, 63, 0.895);
+   line-height: 1.27;
+}
+
+.sub-title-hw {
+   font-size: 20px;
+   text-transform: capitalize;
+}
+
+h2 {
+   text-transform: capitalize;
+   text-indent: 15px;
+}
+
+.sub-title-hw {
+   color: #6B77E5;
+   line-height: 1.27;
+}
+
+header .title {
+   text-align: center;
+}
+
+.title-cont {
+   font-family: Poppins, sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   color: #37393F;
+   text-indent: 15px;
+}
+
+.title-cont li {
+   font-size: 15px;
+   color: rgba(12, 5, 218, 0.65);
+   font-style: italic;
+   text-decoration: underline;
+}
+
+/*img {
+   text-align: center;
+}*/
+
+.title-hw {
+   text-shadow: 3px 3px 5px grey;
+}
+
+.introduction {
+   text-decoration: underline;
+   color: rgba(255, 0, 93, 0.722);
+   justify-content: space-between;
+}
+
+.introduction a {
+   color: rgba(43, 43, 245, 0.59);
+   font-size: large;
+   font-weight: 600;
+}
+
+.text a {
+   color: blue;
+}
+
+.text {
+   line-height: 1.46;
+}
+
+.text-hw,
+.text-hw-info,
+.points,
+.points-num {
+   line-height: 1.36;
+}
+
+.points-num {
+   letter-spacing: 2px;
+   text-indent: 20px;
+}
+
+span {
+   color: red;
+}
+
