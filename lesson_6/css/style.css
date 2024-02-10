@@ -1,0 +1,145 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+body {
+   font-family: Inter, sans-serif;
+   color: #7d7d7d;
+   font-size: 18px;
+}
+
+.block {
+   padding: 50px 15px;
+   max-width: 722px;
+   margin: 0 auto;
+}
+
+.image {
+   margin-bottom: 37px;
+}
+
+.image,
+.image-benefits {
+   max-width: 100%;
+}
+
+.title {
+   color: #37393f;
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 12.5px;
+}
+
+.title,
+.sub-title,
+.title-benefits,
+.sub-title-benefits {
+   font-family: Poppins, sans-serif;
+}
+
+.text,
+.jewels-text {
+   line-height: 1.46;
+   margin-bottom: 40px;
+}
+.sub-title {
+   color: #6b77e5;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 12px;
+}
+
+.benefits {
+   font-size: 0;
+   margin-bottom: 140px;
+}
+
+.image-benefits {
+   width: 331px;
+   margin-right: 29px;
+}
+.content-benefits {
+   display: inline-block;
+   width: 332px;
+   font-size: 18px;
+}
+
+.title-benefits {
+   color: #37393f;
+   font-size: 25px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 15px;
+}
+.sub-title-benefits {
+   color: #40ddb6;
+   font-size: 20;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 23.5px;
+}
+.list-benefits li {
+   margin-bottom: 35px;
+}
+
+.block-two {
+   padding: 50px 15px;
+   max-width: 1200px;
+   margin: 0 auto;
+   /*background-color: antiquewhite;*/
+   font-size: 0;
+}
+
+.develop {
+   margin: 0 auto;
+   display: inline-block;
+   margin-right: 38px;
+   padding: 21px 0 21px 0;
+   font-size: 18px;
+}
+
+.up-title {
+   width: 184px;
+   margin-bottom: 13px;
+   color: #d06b00;
+   font-family: Inter;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.jewels-title {
+   width: 526px;
+   height: 172px;
+   color: #0e333d;
+   font-family: "DM Serif Text";
+   font-size: 59px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.27;
+   margin-bottom: 25px;
+}
+.text-two {
+   max-width: 563px;
+   height: 232px;
+   color: #474747;
+   font-family: Inter, sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.8;
+}
+.ear {
+   margin: 0 auto;
+   display: inline-block;
+   width: 273px;
+   height: 518px;
+   margin-right: 22px;
+}
+.aers {
+   margin: 0 auto;
+   display: inline-block;
+   width: 273px;
+   height: 518px;
+}
